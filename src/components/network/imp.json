@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_network_imps",
+  "info": {
+    "displayName": "Imp"
+  },
+  "options": {},
+  "attributes": {
+    "Tag_id": {
+      "type": "string"
+    },
+    "Ad_type": {
+      "type": "enumeration",
+      "enum": [
+        "HTML5",
+        "Image",
+        "Video",
+        "Third-party-tag"
+      ]
+    }
+  }
+}

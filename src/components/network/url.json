@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_network_urls",
+  "info": {
+    "displayName": "Url",
+    "icon": ""
+  },
+  "options": {},
+  "attributes": {
+    "Region": {
+      "type": "enumeration",
+      "enum": [
+        "Africa",
+        "Asia",
+        "Europe",
+        "North America",
+        "Oceania",
+        "South America"
+      ]
+    },
+    "Url": {
+      "type": "string"
+    },
+    "Ad_type": {
+      "type": "enumeration",
+      "enum": [
+        "HTML5",
+        "Image",
+        "Video",
+        "Third-party-tag"
+      ]
+    }
+  }
+}

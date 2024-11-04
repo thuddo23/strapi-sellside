@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ads_units",
+  "info": {
+    "singularName": "ads-unit",
+    "pluralName": "ads-units",
+    "displayName": "Ads_Unit",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Ad_Unit": {
+      "type": "string"
+    },
+    "Web_app_Bundle": {
+      "type": "string"
+    },
+    "Type_ad": {
+      "type": "enumeration",
+      "enum": [
+        "Image",
+        "HTML5",
+        "Third-party-tag",
+        "Video"
+      ]
+    },
+    "Created_Date": {
+      "type": "date"
+    },
+    "Bid_floor": {
+      "displayName": "Bid_floor",
+      "type": "component",
+      "repeatable": false,
+      "component": "bidding.bid-floor"
+    },
+    "Active": {
+      "type": "boolean"
+    }
+  }
+}

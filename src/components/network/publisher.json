@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_network_publishers",
+  "info": {
+    "displayName": "Publisher"
+  },
+  "options": {},
+  "attributes": {
+    "Pub_id": {
+      "type": "string"
+    },
+    "Pub_name": {
+      "type": "string"
+    },
+    "Pub_domain": {
+      "type": "string"
+    }
+  }
+}

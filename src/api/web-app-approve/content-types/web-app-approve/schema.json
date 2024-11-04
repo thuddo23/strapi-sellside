@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "web_app_approves",
+  "info": {
+    "singularName": "web-app-approve",
+    "pluralName": "web-app-approves",
+    "displayName": "Web_app_Approve"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Package_name": {
+      "type": "string"
+    },
+    "GA4_name": {
+      "type": "string"
+    }
+  }
+}

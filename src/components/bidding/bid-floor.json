@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_bidding_bid_floors",
+  "info": {
+    "displayName": "Bid_floor",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Floor": {
+      "type": "component",
+      "repeatable": true,
+      "component": "bidding.floor"
+    }
+  }
+}
